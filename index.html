@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulario</title>
+</head>
+<body>
+    <section>
+        
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <h2>criando a sua conta</h2>
+        <!--nome-->
+            <label for="inome">nome</label>
+            <input type="text" name="nome" id="inome" autocomplete="off" required>
+        <!--email-->
+            <label for="iemail">email</label>
+            <input type="text" name="nome" id="inome" autocomplete="off" required>
+        <!--senha-->
+            <label for="isenha">senha</label>
+            <input type="password" name="senha" id="isenha" autocomplete="off" required minlength="8">
+
+            <button type="submit">
+                enviar
+            </button>
+
+            <input type="hidden" name="accessKey" value="38a4a79b-c452-45f4-974d-6b08f4e57f41">
+        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+
+        </form>
+    </section>
+</body>
+</html>
